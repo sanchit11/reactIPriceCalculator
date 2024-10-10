@@ -2,15 +2,22 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.divclass {
+  margin-left: 35%;
+  padding: 2px;
+  background-color: aliceblue;
+  display:grid;
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  width: 400px;
 }
 
 .App-header {
